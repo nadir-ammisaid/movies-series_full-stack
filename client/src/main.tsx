@@ -14,10 +14,10 @@ import CategoryDetail from "./pages/CategoryDetail";
 import CategoryEdit from "./pages/CategoryEdit";
 import CategoryIndex from "./pages/CategoryIndex";
 import CategoryNew from "./pages/CategoryNew";
-import ProgramIndex from "./pages/ProgramIndex";
-import ProgramNew from "./pages/ProgramNew";
 import ProgramDetail from "./pages/ProgramDetail";
 import ProgramEdit from "./pages/ProgramEdit";
+import ProgramIndex from "./pages/ProgramIndex";
+import ProgramNew from "./pages/ProgramNew";
 
 /* ************************************************************************* */
 
