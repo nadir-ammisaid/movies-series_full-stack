@@ -15,6 +15,9 @@ import CategoryEdit from "./pages/CategoryEdit";
 import CategoryIndex from "./pages/CategoryIndex";
 import CategoryNew from "./pages/CategoryNew";
 import ProgramIndex from "./pages/ProgramIndex";
+import ProgramNew from "./pages/ProgramNew";
+import ProgramDetail from "./pages/ProgramDetail";
+import ProgramEdit from "./pages/ProgramEdit";
 
 /* ************************************************************************* */
 
@@ -45,6 +48,18 @@ const router = createBrowserRouter([
         path: "/programs",
         element: <ProgramIndex />,
         loader: () => fetch(`${import.meta.env.VITE_API_URL}/api/programs`),
+      },
+      {
+        path: "/programs/new",
+        element: <ProgramNew />,
+      },
+      {
+        path: "/programs/:id",
+        element: <ProgramDetail />,
+      },
+      {
+        path: "/programs/:id/edit",
+        element: <ProgramEdit />,
       },
     ],
   },
